@@ -20,6 +20,64 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcameraservice",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/lib/libcameraservice.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/lib64/libcameraservice.so"],
+        },
+    },
+    shared_libs: [
+        "libbase",
+        "libdl",
+        "libexif",
+        "libui",
+        "liblog",
+        "libutilscallstack",
+        "libutils",
+        "libbinder",
+        "libcutils",
+        "libmedia",
+        "libmediautils",
+        "libcamera_client",
+        "libcamera_metadata",
+        "libfmq",
+        "libgui",
+        "libhardware",
+        "libhwbinder",
+        "libhidlbase",
+        "libhidltransport",
+        "libjpeg",
+        "libmedia_omx",
+        "libmemunreachable",
+        "libsensorprivacy",
+        "libstagefright",
+        "libstagefright_foundation",
+        "libyuv",
+        "android.frameworks.cameraservice.common@2.0",
+        "android.frameworks.cameraservice.service@2.0",
+        "android.frameworks.cameraservice.device@2.0",
+        "android.hardware.camera.common@1.0",
+        "android.hardware.camera.provider@2.4",
+        "android.hardware.camera.provider@2.5",
+        "android.hardware.camera.device@1.0",
+        "android.hardware.camera.device@3.2",
+        "android.hardware.camera.device@3.3",
+        "android.hardware.camera.device@3.4",
+        "android.hardware.camera.device@3.5",
+        "vendor.qti.hardware.camera.device@1.0",
+    ],
+    compile_multilib: "both",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "liblbs_core",
 	owner: "xiaomi",
 	strip: {
@@ -110,6 +168,17 @@ android_app_import {
 		enabled: false,
 	},
 	soc_specific: true,
+}
+
+android_app_import {
+        name: "anxres",
+        owner: "xiaomi",
+        apk: "proprietary/vendor/app/anxres/anxres.apk",
+        certificate: ":platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        soc_specific: true,
 }
 
 android_app_import {

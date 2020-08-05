@@ -18,6 +18,87 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/sirius
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/sirius/proprietary/etc/permissions/anxframework.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/anxframework.xml \
+    vendor/xiaomi/sirius/proprietary/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libCameraEffectJNI.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libSNPE.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libSNPE.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_single_chart_calibration.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libarcsoft_super_night_raw_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_super_night_raw_mpbase.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libarcsoft_supernight_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_supernight_jni.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libarcsoft_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_wideselfie.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_960_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_960_mpbase.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_ambilight_ambt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_ambilight_ambt.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_ambilight_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_ambilight_utils.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_arcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_arcsoft_beautyshot.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_arcsoft_handgesture.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_arcsoft_handgesture.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_beauty_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_beauty_mpbase.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_client.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_handgesture_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_handgesture_mpbase.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_metadata.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_metadata.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_mialgo_ambilight.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_mialgo_ambilight.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_sound_effect.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_sound_effect.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera_wideselfie_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_wideselfie_mpbase.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcameraservice.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libclone_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libclone_c++_shared.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcom.xiaomi.camera.algojni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcom.xiaomi.camera.algojni.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcom.xiaomi.camera.mianodejni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcom.xiaomi.camera.mianodejni.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcom.xiaomi.camera.requestutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcom.xiaomi.camera.requestutil.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libdeflicker_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdeflicker_jni.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libdoc_photo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdoc_photo.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libdoc_photo_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdoc_photo_c++_shared.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libfenshen.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfenshen.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libgallery_arcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgallery_arcsoft_dualcam_refocus.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libgallery_arcsoft_portrait_lighting.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgallery_arcsoft_portrait_lighting.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libgallery_arcsoft_portrait_lighting_c.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgallery_arcsoft_portrait_lighting_c.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libgallery_block_sdk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgallery_block_sdk.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libgallery_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgallery_mpbase.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libhandengine.arcsoft.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhandengine.arcsoft.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libheif.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libheif.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libjni_arcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/libjni_arcsoft_beautyshot.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libjni_jpegutil_xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_jpegutil_xiaomi.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libjni_pacprocessor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_pacprocessor.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libjni_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_wideselfie.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmibokeh_gallery.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmibokeh_gallery.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmillet_comm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmillet_comm.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmimoji_avatarengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_avatarengine.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmimoji_bokeh_845_video.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_bokeh_845_video.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmimoji_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_jni.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmimoji_soundsupport.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_soundsupport.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmimoji_tracking.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_tracking.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmimoji_video2gif.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_video2gif.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmiuidiffpatcher.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmiuidiffpatcher.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmiuinative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmiuinative.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmorpho_memory_allocator.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmorpho_panorama_gp3.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmorpho_sensor_fusion.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmotion_photo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotion_photo.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmotion_photo_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotion_photo_c++_shared.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libmotion_photo_mace.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmotion_photo_mace.so \
+    vendor/xiaomi/sirius/proprietary/lib64/librefocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librefocus.so \
+    vendor/xiaomi/sirius/proprietary/lib64/librefocus_mibokeh.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librefocus_mibokeh.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libsnpe_dsp_domains_skel.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnpe_dsp_domains_skel.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnpe_dsp_domains_v2.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libsnpe_dsp_skel.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnpe_dsp_skel.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libsnpe_dsp_v65_domains_v2_skel.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnpe_dsp_v65_domains_v2_skel.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libsnpe_dsp_v66_domains_v2_skel.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnpe_dsp_v66_domains_v2_skel.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libsubtitle_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsubtitle_jni.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsymphony-cpu.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libvideo_extra_color_converter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvideo_extra_color_converter.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libvideo_extra_interpolator.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvideo_extra_interpolator.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libvvc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvvc++_shared.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libvvmediaeditor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvvmediaeditor.so \
+    vendor/xiaomi/sirius/proprietary/vendor/lib64/libPSNPE.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/libPSNPE.so \
+    vendor/xiaomi/sirius/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/libSNPE.so \
+    vendor/xiaomi/sirius/proprietary/vendor/lib64/libsnpe_adsp.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/libsnpe_adsp.so \
+    vendor/xiaomi/sirius/proprietary/vendor/lib64/libsnpe_dsp_domains.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/libsnpe_dsp_domains.so \
+    vendor/xiaomi/sirius/proprietary/vendor/lib64/libsnpe_dsp_domains_system.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/libsnpe_dsp_domains_system.so \
+    vendor/xiaomi/sirius/proprietary/vendor/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/libsnpe_dsp_domains_v2.so \
+    vendor/xiaomi/sirius/proprietary/vendor/lib64/libsnpe_dsp_domains_v2_system.so:$(TARGET_COPY_OUT_SYSTEM)/vendor/lib64/libsnpe_dsp_domains_v2_system.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libcamera2ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera2ndk.so \
+    vendor/xiaomi/sirius/proprietary/framework/anxframework.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/anxframework.jar \
+    vendor/xiaomi/sirius/proprietary/lib/libmiuinative.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmiuinative.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libMiuiGalleryNSGIF.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libMiuiGalleryNSGIF.so \
+    vendor/xiaomi/sirius/proprietary/lib64/libarcsoft_deflicker.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_deflicker.so \
     vendor/xiaomi/sirius/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/xiaomi/sirius/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/xiaomi/sirius/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
@@ -1104,6 +1185,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sirius/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
+    anxres \
     liblbs_core \
     libplatformconfig \
     WfdService \
